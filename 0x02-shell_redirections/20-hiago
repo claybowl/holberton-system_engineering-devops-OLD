@@ -1,2 +1,2 @@
 #!/bin/bas
-tr -d |C| |c|
+tr -d C c
