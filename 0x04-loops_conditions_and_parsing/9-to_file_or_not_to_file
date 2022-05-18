@@ -2,10 +2,10 @@
 # writes script that gives info about the school file.
 
 found=0
-for file in *; do
+for school in *; do
 	if [ "$file" == "school" ]
 	then
-	found=$((found = 1))
+		found=$((found = 1))
 	echo "school file exist"
 	if [ -s "$file" ]
 		then
