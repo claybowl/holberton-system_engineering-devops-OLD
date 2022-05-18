@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# writes 'Best School' 10 times using until
+
+count=1
+
+until [[ "$count" -gt 10 ]]; do
+	echo 'Best School'
+	count=$((count + 1))
+done
