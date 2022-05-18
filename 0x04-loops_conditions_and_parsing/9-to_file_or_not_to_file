@@ -2,7 +2,7 @@
 # writes script that gives info about the school file.
 
 found=0
-for school in /root; do
+for school in *; do
 	if [ "$school" == "school" ]
 	then
 		found=$((found = 1))
