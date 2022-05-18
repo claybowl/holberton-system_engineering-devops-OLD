@@ -3,17 +3,17 @@
 
 found=0
 for school in /root; do
-	if [ "$file" == "school" ]
+	if [ "$school" == "school" ]
 	then
 		found=$((found = 1))
 	echo "school file exist"
-	if [ -s "$file" ]
+	if [ -s "$school" ]
 		then
 		echo "school file is not empty"
 	else
 		echo "school file is empty"
 	fi
-	if [ -f "$file" ]
+	if [ -f "$school" ]
 		then
 		echo "school is a regular file"
 	fi
