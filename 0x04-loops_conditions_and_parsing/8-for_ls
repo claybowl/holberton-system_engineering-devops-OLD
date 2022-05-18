@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Writes script that displays: the content of current directory, in a list format, where only part of the name after the first dash is displayed.
+#ls | cut -d '-' -f2
+#ls | while read line; do cut -d '-' -f2; done
+
+for line in *; do
+	echo "$line" | cut -d '-' -f2
+done
+
