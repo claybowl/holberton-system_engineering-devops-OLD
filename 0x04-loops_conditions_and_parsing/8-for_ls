@@ -4,6 +4,6 @@
 #ls | while read line; do cut -d '-' -f2; done
 
 for line in *; do
-	echo "$line" | cut -d '-' -f2
+	echo "$line" | cut -d -f2
 done
 
